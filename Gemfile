@@ -29,6 +29,8 @@ gem 'starter_generators'
 
 gem 'annotate'
 
+gem 'awesome_print'
+
 
 
 # Use ActiveModel has_secure_password
