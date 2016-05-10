@@ -7,7 +7,20 @@
 
 <p>
   <strong>Genre:</strong>
-  <%= @artist.genre %>
+  <%= @artist.genre.name %>
+</p>
+
+<p>
+
+<strong>Songs by <%= @artist.name %></strong>
+<ul>
+
+
+<% @artist.songs.order('name').each do |song| %>
+<li> <%song.name %></li>
+<% end %>
+</ul>
+
 </p>
 
 

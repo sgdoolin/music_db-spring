@@ -27,6 +27,8 @@ gem 'thin'
 
 gem 'starter_generators'
 
+gem 'annotate'
+
 
 
 # Use ActiveModel has_secure_password
